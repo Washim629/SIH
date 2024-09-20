@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CGC Alumni Association - Events</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .even {
+            margin-top: 90px;
+        }
+        .events-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-top: 50px;
+        }
+
+        .event-card {
+            background-color: var(--white);
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .event-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .event-image {
+            height: 200px;
+            background-size: cover;
+            background-position: center;
+        }
+
+        .event-details {
+            padding: 20px;
+        }
+
+        .event-details h3 {
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+            color: var(--primary-color);
+        }
+
+        .event-details p {
+            margin-bottom: 15px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 10px 15px;
+            background-color: var(--primary-color);
+            color: var(--white);
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn:hover {
+            background-color: #3a7bc8;
+        }
+
+        main {
+            padding-top: 100px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="container">
+            <div class="logo">CGC  Jhanjeri Alumni</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li><a href='news.html'>News</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <div class="even">
+            <h1 class="section-title">Upcoming Events</h1>
+            <div class="events-grid">
+                <div class="event-card">
+                    <div class="event-image" style="background-image: url('https://www.cgc.ac.in/public/tiny-uploads/_convo-1.jpg');"></div>
+                    <div class="event-details">
+                        <h3>Annual Reunion</h3>
+                        <p>Date: August 15, 2025</p>
+                        <p>Join us for a day of networking and reminiscing with fellow alumni.</p>
+                        <a href="#" class="btn">Register</a>
+                    </div>
+                </div>
+                <div class="event-card">
+                    <div class="event-image" style="background-image: url('https://images.examples.com/wp-content/uploads/2022/10/Career-Goals.png');"></div>
+                    <div class="event-details">
+                        <h3>Career Fair</h3>
+                        <p>Date: September 5, 2025</p>
+                        <p>Connect with top employers and explore job opportunities in various fields.</p>
+                        <a href="#" class="btn">Register</a>
+                    </div>
+                </div>
+                <div class="event-card">
+                    <div class="event-image" style="background-image: url('https://www.cgc.ac.in/public/assets/images/1725340547_3137a0b14982e7b4050d.jpg');"></div>
+                    <div class="event-details">
+                        <h3>Tech Symposium</h3>
+                        <p>Date: October 10, 2025</p>
+                        <p>Learn about the latest advancements in technology from industry experts.</p>
+                        <a href="#" class="btn">Register</a>
+                    </div>
+                </div>
+                <div class="event-card">
+                    <div class="event-image" style="background-image: url('https://www.cityairnews.com/uploads/images/image-750x-2024-02-23-03:23:41pm-65d86b2588037.jpg');"></div>
+                    <div class="event-details">
+                        <h3>Sports Day</h3>
+                        <p>Date: November 20, 2024</p>
+                        <p>Participate in various sports and activities to showcase your skills.</p>
+                        <a href="#" class="btn">Register</a>
+                    </div>
+                </div>
+                <div class="event-card">
+                    <div class="event-image" style="background-image: url('https://www.cityairnews.com/uploads/images/image-750x-2023-09-16-03:50:26pm-6505816aaa6cc.jpg');"></div>
+                    <div class="event-details">
+                        <h3>Workshops on Leadership</h3>
+                        <p>Date: December 5, 2024</p>
+                        <p>Enhance your leadership skills with hands-on workshops.</p>
+                        <a href="#" class="btn">Register</a>
+                    </div>
+                </div>
+                <div class="event-card">
+                    <div class="event-image" style="background-image: url('https://images.shiksha.com/mediadata/images/1705979620phpSeGsfu.jpeg');"></div>
+                    <div class="event-details">
+                        <h3>Networking Dinner</h3>
+                        <p>Date: January 15, 2025</p>
+                        <p>An evening of networking and building connections with alumni.</p>
+                        <a href="#" class="btn">Register</a>
+                    </div>
+                </div>
+                <div class="event-card">
+                    <div class="event-image" style="background-image: url('https://www.cgc.ac.in/public/tiny-uploads/_IMG_1627.jpg');"></div>
+                    <div class="event-details">
+                        <h3>Alumni Guest Lecture</h3>
+                        <p>Date: February 25, 2025</p>
+                        <p>Hear insights from successful alumni in various fields.</p>
+                        <a href="#" class="btn">Register</a>
+                    </div>
+                </div>
+                <div class="event-card">
+                    <div class="event-image" style="background-image: url('https://www.cgc.ac.in/public/tiny-uploads/_DSC_8846.JPG');"></div>
+                    <div class="event-details">
+                        <h3>Charity Fundraiser</h3>
+                        <p>Date: March 10, 2025</p>
+                        <p>Join us to support a cause and make a difference.</p>
+                        <a href="#" class="btn">Register</a>
+                    </div>
+                </div>
+                <div class="event-card">
+                    <div class="event-image" style="background-image: url('https://www.cgc.ac.in/public/tiny-uploads/_10.JPG');"></div>
+                    <div class="event-details">
+                        <h3>Alumni Picnic</h3>
+                        <p>Date: April 22, 2025</p>
+                        <p>Enjoy a day outdoors with fellow alumni and families.</p>
+                        <a href="#" class="btn">Register</a>
+                    </div>
+                </div>
+                <div class="event-card">
+                    <div class="event-image" style="background-image: url('https://images.shiksha.com/mediadata/images/1575529250phpbP0bcT.jpeg');"></div>
+                    <div class="event-details">
+                        <h3>Annual General Meeting</h3>
+                        <p>Date: May 30, 2025</p>
+                        <p>Join us to discuss the future and plans of the alumni association.</p>
+                        <a href="#" class="btn">Register</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 CGC Alumni Association. All rights reserved.</p>
+    </footer>
+</body>
+</html>

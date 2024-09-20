@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CGC Alumni Association - Directory</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        #direc{
+            margin-top: 90px;
+        }
+        .directory-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+            margin-top: 50px;
+        }
+
+        .alumni-card {
+            
+            background-color: var(--white);
+            border-radius: 10px;
+            overflow: hidden;
+            text-align: center;
+            display: flexbox;
+            height: 100%;
+            width: 100%;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .alumni-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .alumni-image {
+            width: 40%;
+            height: 60%;
+            object-fit:contain ;
+            align-items: center;
+            
+
+        }
+
+        .alumni-details {
+            padding: 20px;
+        }
+
+        .alumni-details h3 {
+            font-size: 1.2rem;
+            margin-bottom: 5px;
+            color: var(--primary-color);
+        }
+
+        .alumni-details p {
+            margin-bottom: 5px;
+            font-size: 0.9rem;
+        }
+
+        main {
+            padding-top: 100px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="container">
+            <div class="logo">CGC Alumni</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li><a href='news.html'>News</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <h1 class="container" id="direc">
+        <h1 class="section-title">Alumni Directory</h1>
+        <div class="directory-grid">
+            <div class="alumni-card">
+                
+                <div class="alumni-details">
+                    <h3>MD Washim</h3>
+                    <p>Class of 2023</p>
+                    <p>Computer Science</p>
+                    <p>Software Engineer at Tech Co.</p>
+                </div>
+                <img src="Washim.jpg" alt="John Doe" class="alumni-image">
+            </div>
+            <div class="alumni-card">
+                
+                <div class="alumni-details">
+                    <h3>Ashish</h3>
+                    <p>Class of 2023</p>
+                    <p>Business Management</p>
+                    <p>Marketing Manager at Brand Inc.</p>
+                </div>
+                <img src="Ashish.jpg" alt="Ashish" class="alumni-image">
+            </div>
+             <div class="alumni-card">
+            <div class="alumni-details">
+                <h3>Sashi</h3>
+                <p>Class of 2024</p>
+                <p>Software Executive Head</p>
+            </div>
+            <img src="Shashi.jpg" alt="Jane Smith" class="alumni-image">
+
+             </div>
+            </div>
+        </div>
+        </h1>
+    </class>
